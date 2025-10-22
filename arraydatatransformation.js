@@ -14,18 +14,6 @@ const employees = [
   { name: "Jack Thompson", department: "Sales", salary: 82000, years: 4, email: "jack@techcorp.com" }
 ];
 
-// Additional challenge data
-const projects = [
-  { id: 1, name: "Website Redesign", department: "Marketing", budget: 50000, status: "completed" },
-  { id: 2, name: "Mobile App", department: "Engineering", budget: 120000, status: "in-progress" },
-  { id: 3, name: "Sales Dashboard", department: "Sales", budget: 30000, status: "planned" },
-  { id: 4, name: "API Integration", department: "Engineering", budget: 80000, status: "completed" },
-  { id: 5, name: "Customer Portal", department: "Engineering", budget: 100000, status: "in-progress" }
-];
-
-// Export for use in your solutions
-// module.exports = { employees, projects };
-
 /* 
 CHALLENGE TASKS:
 1. Find High Earners - Return array of employees earning over $75,000
